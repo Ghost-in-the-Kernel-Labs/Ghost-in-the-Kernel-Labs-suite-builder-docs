@@ -26,7 +26,8 @@ Its users are told to crawl only sites they own or have permission to test.
 - **A page limit**: 300 pages by default (50 for a quick crawl). Most crawls stop sooner, once 30
   pages in a row show nothing new.
 - **It backs off.** It stops after 3 failures in a row (network errors or 5xx answers), and at once
-  on `429 Too Many Requests`.
+  on `429 Too Many Requests`. Only the first page is asked for a second time, once, when it doesn't
+  finish loading within 30 seconds (a server waking from sleep can take that long).
 - **Only what a test needs.** No images, video or fonts are downloaded. Known advertising hosts
   are not requested.
 - **It reads, and does nothing else.** It reads public pages, logged out: GET requests only, no
