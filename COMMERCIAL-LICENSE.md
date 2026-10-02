@@ -20,13 +20,9 @@ person or organization they were generated for may keep and use them freely (see
 `GENERATED-OUTPUT.md`). That permission does not cover projects generated through use no license
 covers; the author reserves all rights in those.
 
-## Kinds of commercial license
+## How a commercial license is granted
 
-- **Employment license.** For an organization that employs the author. The organization may use
-  Suite Builder internally for as long as the author works there. When the employment ends, for
-  any reason, the license ends too, unless the organization buys a perpetual internal-use license
-  at a price agreed in advance. A draft agreement is available on request.
-- **Organization license.** For anyone else, on terms agreed with the author.
+In writing, on terms agreed with the author, for the person or organization that will use it.
 
 ## Contact
 
