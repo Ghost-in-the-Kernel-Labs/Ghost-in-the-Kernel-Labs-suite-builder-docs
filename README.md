@@ -22,19 +22,21 @@ does, the limits it keeps, and how to block it with robots.txt.
 | --- | --- |
 | [CRAWLER.md](CRAWLER.md) | Site owners: what the crawler is, how it behaves, how to block it or report a problem |
 | [USER-GUIDE.md](USER-GUIDE.md) | People using Suite Builder: building a suite, what it contains, running it, keeping your changes |
-| [GENERATED-OUTPUT.md](GENERATED-OUTPUT.md) | Who may use a generated test suite, and how |
-| [LICENSE](LICENSE) | The Suite Builder Noncommercial License 1.0, the license of the tool |
-| [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md) | Business and government use, and how to ask for a license |
+| [GENERATED-OUTPUT.md](GENERATED-OUTPUT.md) | Who holds a generated test suite: the owner of the site it tests |
+| [LICENSE](LICENSE) | The Suite Builder Personal and Educational License 1.0, the license of the tool |
+| [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md) | Every other use, and how to ask for a license |
 
 ## License, in short
 
-Suite Builder is source-available, not open source. Copyright (c) 2026 ghost-in-the-kernel.
+Suite Builder is proprietary. Copyright (c) 2026 ghost-in-the-kernel. All rights reserved.
 
-- **The tool:** the [Suite Builder Noncommercial License 1.0](LICENSE). Personal, noncommercial use
-  is free. Business use (at work, for clients, in a product) and any government use need a
-  [license from the author](COMMERCIAL-LICENSE.md).
-- **What it generates:** a test project built under a valid license belongs to whoever it was built
-  for, to use freely, commercial use included ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)).
+- **The tool:** the [Suite Builder Personal and Educational License 1.0](LICENSE). Free for
+  educational use (study, coursework, teaching) and for validating your own personal projects with
+  no commercial use. Every other use, including any business, nonprofit or government use, needs a
+  [commercial license from the author](COMMERCIAL-LICENSE.md).
+- **What it generates:** each suite carries its own `LICENSE`. A suite generated under a valid
+  license belongs to the owner of the site it tests, to use, change and share for any purpose,
+  commercial use included ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)).
 
 ## Contact
 

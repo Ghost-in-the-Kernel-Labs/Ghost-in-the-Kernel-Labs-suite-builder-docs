@@ -194,4 +194,6 @@ what it checks.
 ## Questions
 
 [Open an issue](https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs/issues/new). For
-business or government use, see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+any use beyond education and your own personal projects, see
+[COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md); each suite's own `LICENSE` says who holds it
+([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)).
