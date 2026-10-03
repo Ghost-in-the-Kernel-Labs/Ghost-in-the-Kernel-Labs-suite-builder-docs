@@ -1,50 +1,45 @@
 # Suite Builder
 
-**A compiler for test suites.** Give it a website's address: it crawls the site in a real browser,
-works out what kinds of pages it has and how they link, and writes a complete, runnable test suite
-for it in Playwright (Java), Selenium (Java) or Cypress (TypeScript): page objects, locators, click
-and verify actions, the site's menu, and smoke, navigation, menu and broken-link tests.
+Suite Builder is a command-line tool that crawls a website in a real browser and writes a runnable
+test suite for it: Playwright or Selenium in Java (JUnit 5, Maven), or Cypress in TypeScript. It is
+proprietary, and its source is private; this repository is its public documentation.
+
+## The crawler
+
+If your server logs show this User-Agent, someone ran Suite Builder against your site:
 
 ```
-suite build www.example.com
+Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)
 ```
 
-This repository is Suite Builder's public documentation. The tool's source is not public.
+It reads one page at a time, about one a second, logged out, and follows links only. It never sends
+a form, signs in or buys anything, and it stays on your site. It obeys robots.txt. To block it:
 
-## Are you a site owner?
+```
+User-agent: SuiteBuilder
+Disallow: /
+```
 
-If you found `SuiteBuilder` in your server logs, read **[CRAWLER.md](CRAWLER.md)**: what the crawler
-does, the limits it keeps, and how to block it with robots.txt.
+To slow it down instead, put `Crawl-delay: <seconds>` in that group.
 
-## Documents
+Everything it does, and how to reach the maintainer: **[CRAWLER.md](CRAWLER.md)**.
 
-| Document | For |
+## Pages
+
+| Page | For |
 | --- | --- |
-| [CRAWLER.md](CRAWLER.md) | Site owners: what the crawler is, how it behaves, how to block it or report a problem |
-| [USER-GUIDE.md](USER-GUIDE.md) | People using Suite Builder: building a suite, what it contains, running it, keeping your changes |
-| [GENERATED-OUTPUT.md](GENERATED-OUTPUT.md) | Who holds a generated test suite: the owner of the site it tests |
-| [LICENSE](LICENSE) | The Suite Builder Personal and Educational License 1.0, the license of the tool |
-| [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md) | Every other use, and how to ask for a license |
-
-## License, in short
-
-Suite Builder is proprietary. Copyright (c) 2026 ghost-in-the-kernel. All rights reserved.
-
-- **The tool:** the [Suite Builder Personal and Educational License 1.0](LICENSE). Free for
-  educational use (study, coursework, teaching) and for validating your own personal projects with
-  no commercial use. Every other use, including any business, nonprofit or government use, needs a
-  [commercial license from the author](COMMERCIAL-LICENSE.md).
-- **What it generates:** each suite carries its own `LICENSE`. A suite generated under a valid
-  license belongs to the owner of the site it tests, to use, change and share for any purpose,
-  commercial use included ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)).
+| [CRAWLER.md](CRAWLER.md) | Site owners: the crawler in full, and how to block or slow it |
+| [USER-GUIDE.md](USER-GUIDE.md) | Licensed users: the commands, the build options, what a suite contains |
+| [GENERATED-OUTPUT.md](GENERATED-OUTPUT.md) | Anyone holding a generated suite: who it belongs to |
+| [LICENSE](LICENSE) | The tool's licence: the Suite Builder Personal and Educational License 1.0 |
+| [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md) | Every other use, and how to ask for a licence |
 
 ## Contact
 
 Open an issue on this repository:
 
-- [The crawler visited my site](https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs/issues/new?template=crawler.md)
+- [About the crawler on my site](https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs/issues/new?template=site-owner.md)
 - [License request](https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs/issues/new?template=license-request.md)
-- [Anything else](https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs/issues/new)
 
-The maintainer is Ghost ([ghost-in-the-kernel](https://github.com/ghost-in-the-kernel)) and replies
-there.
+The maintainer is Ghost ([ghost-in-the-kernel](https://github.com/ghost-in-the-kernel)), who
+replies there.

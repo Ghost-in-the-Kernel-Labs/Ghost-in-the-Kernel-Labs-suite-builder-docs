@@ -1,13 +1,17 @@
 ---
 name: License request
-about: Business or government use of Suite Builder
+about: Ask for a Suite Builder licence for any use beyond education and personal projects
 title: "License request"
-labels: license
+labels: license-request
 ---
 
-**Who you are:** <!-- the organization -->
+This issue is public. Please don't post anything confidential here: the maintainer will move to
+email when it helps. COMMERCIAL-LICENSE.md explains how licensing works.
 
-**How you would use Suite Builder:** <!-- e.g. at work, for clients, in a product -->
+**Who will use it:** <!-- a person, or an organization (name it) -->
 
-Please don't post anything confidential here: the maintainer will move to email when it helps.
-See COMMERCIAL-LICENSE.md for the kinds of license.
+**For what:** <!-- e.g. testing your own sites, client work, a product -->
+
+**Roughly how many sites:** <!-- an estimate is fine -->
+
+**How you'd like to be contacted:** <!-- reply here, or move to email -->
