@@ -33,8 +33,9 @@ valid license (see `GENERATED-OUTPUT.md`). Every suite carries its own `LICENSE`
 ## Trying it before buying
 
 There is no free trial of the tool for organizations, since one generated suite is most of what a
-license buys. To see what Suite Builder would produce for your site, ask for a preview: a report of
-the page types it finds, the links between them, the broken links, and the tests it would write.
+license buys. Instead, companies can join the **partner pilot** ([PILOT.md](PILOT.md)): with the
+site owner's written permission, the author builds a suite for the company's site, and the company
+may evaluate it for 60 days at no cost. Continuing to use it after that needs a commercial license.
 
 ## How a commercial license is granted
 
@@ -43,7 +44,7 @@ author may decline any license request.
 
 ## Contact
 
-Through GitHub: [ghost-in-the-kernel](https://github.com/ghost-in-the-kernel). Open an
+By email: [j_be_nimble@hotmail.com](mailto:j_be_nimble@hotmail.com). Or through GitHub: [ghost-in-the-kernel](https://github.com/ghost-in-the-kernel). Open an
 issue titled "License request" on Suite Builder's public documentation repository
 ([new issue](https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs/issues/new?template=license-request.md)).
 

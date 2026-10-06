@@ -16,6 +16,11 @@ change and distribute the suite, and to let their staff, contractors and anyone 
 purpose, commercial use included. It continues after any Suite Builder license ends. The suite's
 `LICENSE` file says so, and nothing in it depends on Suite Builder's own license.
 
+**A suite built for a partner pilot** ([PILOT.md](PILOT.md)) by the copyright holder: the
+company that owns the site may use, copy and change it internally, by its staff and contractors, to
+evaluate it, for 60 days from handover. Any use after that needs a commercial license, under which
+the company then holds the license above.
+
 **A suite generated for educational use** (coursework or teaching, on a site the student or
 teacher does not own) may be used only for that course. The site's owner gets no license to it.
 

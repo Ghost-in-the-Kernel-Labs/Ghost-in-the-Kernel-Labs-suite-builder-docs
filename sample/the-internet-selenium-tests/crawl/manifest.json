@@ -1,0 +1,34 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "build": {
+    "commit": "0050c4064847ec4bf52387d3ce76671e3a20837c",
+    "branch": "main"
+  },
+  "framework": "selenium",
+  "generatedAt": "2026-10-06T13:26:24.891Z",
+  "command": "suite-builder generate the-internet.herokuapp.com.templates.json --crawl the-internet.crawl.json --selenium --out the-internet-selenium-tests",
+  "templates": "crawl/the-internet.herokuapp.com.templates.json",
+  "crawl": "crawl/the-internet.herokuapp.com.crawl.json",
+  "crawlFileSaved": "2026-10-06T13:26:17.409Z",
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ]
+}
