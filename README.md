@@ -23,7 +23,8 @@ to the pages and the decision behind it.
 ## Partner pilot
 
 We are inviting a small number of companies to a free pilot: with your permission we build a suite
-for your site, your engineers evaluate it for 60 days, and you decide whether to continue.
+for your site, your engineers evaluate it for 60 days, and you decide whether to continue. The
+suite is yours to keep either way.
 **[PILOT.md](PILOT.md)** has the details and terms; **[sample/](sample/)** shows what a suite and its
 audit look like.
 
@@ -63,9 +64,10 @@ Suite Builder is proprietary. Copyright (c) 2026 ghost-in-the-kernel. All rights
   educational use (study, coursework, teaching) and for validating your own personal projects with
   no commercial use. Every other use, including any business, nonprofit or government use, needs a
   [commercial license from the author](COMMERCIAL-LICENSE.md).
-- **What it generates:** each suite carries its own `LICENSE`. A suite generated under a valid
-  license belongs to the owner of the site it tests, to use, change and share for any purpose,
-  commercial use included ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)).
+- **What it generates:** using a suite needs no license, only ownership of the site it tests;
+  generating one needs a license. Each suite carries its own `LICENSE`: it belongs to the owner of
+  the site it tests, to use, change and share for any purpose, commercial use included
+  ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)).
 
 ## Contact
 

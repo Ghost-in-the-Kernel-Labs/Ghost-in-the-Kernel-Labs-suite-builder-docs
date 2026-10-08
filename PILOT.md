@@ -26,15 +26,17 @@ website, your engineers evaluate it for 60 days, and you decide whether to conti
    obeys robots.txt, waits between pages and backs off at the first sign of strain ([CRAWLER.md](CRAWLER.md)).
 4. **Handover.** The suite and its audit, with the walkthrough.
 5. **Evaluation: 60 days.** Your team runs, changes and extends it on your own systems.
-6. **Decision.** Continue under a commercial licence, or not. Either way, we ask for your feedback.
+6. **Decision.** Continue under a commercial licence, or not. The suite is yours to keep either way,
+   and we ask for your feedback.
 
 ## Terms
 
 | Term | Detail |
 | --- | --- |
 | Cost | None for the pilot |
-| Evaluation | 60 days from handover: your staff and contractors may run, read, change and extend the suite internally to decide |
-| After 60 days | Continuing to use the suite needs a commercial licence ([COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)); under it the suite belongs to you outright ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)) |
+| Evaluation | 60 days from handover to decide whether to continue |
+| The suite | Yours to keep, as the site's owner: use, change and share it for any purpose, during the pilot and after, with no licence needed ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)) |
+| After 60 days | New suites, and rebuilds as your site changes, need a commercial licence ([COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md)) |
 | Permission | Only the sites you name, and only after your written permission |
 | Your data | The crawl reads what a visitor sees. Pages saved during the crawl are kept only while needed and never published; nothing from your site is added to our repositories |
 | Accounts | Signed-in areas need test accounts on a test environment, supplied by you; account details are never written into the suite or committed |

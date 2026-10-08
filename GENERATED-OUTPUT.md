@@ -4,29 +4,39 @@ A test project that Suite Builder generates (the suite: its sources, README and 
 `suite build` or `suite generate` writes) is licensed separately from Suite Builder, and more
 permissively. Every suite carries its own `LICENSE` file, which names the site it tests.
 
-**A suite belongs to the owner of the site it tests,** when it was generated under a valid license:
+**In short: using a suite needs no license, only ownership of the site it tests. Generating a suite
+needs a Suite Builder license.**
 
-- under a **commercial license** from the copyright holder, whoever generated it (the site's owner
-  itself, or an agency, consultant or contractor working for them); or
-- under the **Personal and Educational License**, by the site's owner, for their own personal
-  project.
+## Using a suite
 
-The site's owner then holds a perpetual, worldwide, royalty-free, irrevocable license to use, copy,
-change and distribute the suite, and to let their staff, contractors and anyone else do so, for any
-purpose, commercial use included. It continues after any Suite Builder license ends. The suite's
-`LICENSE` file says so, and nothing in it depends on Suite Builder's own license.
+**A suite belongs to the owner of the site it tests,** whoever generated it. The site's owner holds
+a perpetual, worldwide, royalty-free, irrevocable license to use, copy, change and distribute the
+suite, and to let their staff, contractors and anyone else do so, for any purpose, commercial use
+included.
 
-**A suite built for a partner pilot** ([PILOT.md](PILOT.md)) by the copyright holder: the
-company that owns the site may use, copy and change it internally, by its staff and contractors, to
-evaluate it, for 60 days from handover. Any use after that needs a commercial license, under which
-the company then holds the license above.
+The owner needs no Suite Builder license to run, change or extend the suite, now or later. The
+suite's `LICENSE` file says so, and nothing in it depends on Suite Builder's own license.
 
-**A suite generated for educational use** (coursework or teaching, on a site the student or
-teacher does not own) may be used only for that course. The site's owner gets no license to it.
+This includes a suite built for a partner pilot ([PILOT.md](PILOT.md)): the company that owns the
+site keeps it, during and after the pilot.
 
-**A suite generated any other way** (by use no license covers, for example free use on a site the
-generator does not own): the copyright holder, ghost-in-the-kernel, reserves all rights. The site's
-owner can obtain the license above by taking a commercial license that covers the suite.
+## Generating a suite
+
+Generating a suite is use of Suite Builder, and needs a license that covers that use (`LICENSE`,
+`COMMERCIAL-LICENSE.md`):
+
+- the free **Personal and Educational License**, for a site owner's own personal project, or for
+  coursework or teaching; or
+- a **commercial license**, for everything else, including generating a suite for a business or
+  for anyone else (an agency, consultant or contractor working for the site's owner).
+
+A student or teacher who generates a suite of a site they do not own may use it only for that
+course; the site's owner holds it like any other suite.
+
+Generating a suite without a license that covers it breaks Suite Builder's license. It does not
+take the suite away from the site's owner.
+
+## Suite Builder itself
 
 None of this covers Suite Builder itself: using, copying or changing the tool is governed by
 `LICENSE` and `COMMERCIAL-LICENSE.md`.

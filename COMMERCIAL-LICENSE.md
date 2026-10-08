@@ -17,25 +17,28 @@ Educational License 1.0 (see `LICENSE`):
 
 ## The suites it generates
 
-A suite is licensed separately from the tool, and more permissively: it belongs to the owner of the
-site it tests, who may use, change and share it for any purpose, when it was generated under a
-valid license (see `GENERATED-OUTPUT.md`). Every suite carries its own `LICENSE` naming the site.
+**Using a suite needs no license, only ownership of the site it tests. Generating a suite needs a
+license.** A suite is licensed separately from the tool, and more permissively: it belongs to the
+owner of the site it tests, who may use, change and share it for any purpose, whoever generated it
+(see `GENERATED-OUTPUT.md`). Every suite carries its own `LICENSE` naming the site.
 
-- Generated under a **commercial license**, by the site's owner or by an agency or contractor
-  working for them: the site's owner holds it.
-- Generated under the **free license** by the site's owner for their own personal project: the
-  owner holds it too. A suite of someone else's site, generated for coursework or teaching, may be
-  used only for that course.
-- Generated any other way, the suite is not licensed to anyone until a commercial license covers
-  it. The value of Suite Builder is in the suites it generates, so a suite generated for free and
-  handed to a company does not give that company a free suite.
+The licenses above are for generating suites:
+
+- The **free license** covers a site owner generating a suite for their own personal project, and
+  a student or teacher generating one for a course (a suite of someone else's site may then be
+  used by them only for that course).
+- A **commercial license** covers every other generation: by a business for its own site, or by an
+  agency or contractor for a client's.
+- Generating a suite without a license that covers it breaks Suite Builder's license, but the suite
+  still belongs to the site's owner.
 
 ## Trying it before buying
 
 There is no free trial of the tool for organizations, since one generated suite is most of what a
 license buys. Instead, companies can join the **partner pilot** ([PILOT.md](PILOT.md)): with the
 site owner's written permission, the author builds a suite for the company's site, and the company
-may evaluate it for 60 days at no cost. Continuing to use it after that needs a commercial license.
+evaluates it for 60 days at no cost. The suite is the company's to keep either way; further suites,
+and rebuilds as the site changes, need a commercial license.
 
 ## How a commercial license is granted
 
