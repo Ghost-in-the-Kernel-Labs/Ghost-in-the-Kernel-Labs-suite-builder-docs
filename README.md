@@ -68,6 +68,9 @@ Suite Builder is proprietary. Copyright (c) 2026 ghost-in-the-kernel. All rights
   generating one needs a license. Each suite carries its own `LICENSE`: it belongs to the owner of
   the site it tests, to use, change and share for any purpose, commercial use included
   ([GENERATED-OUTPUT.md](GENERATED-OUTPUT.md)).
+- **Service providers:** a company that generates suites for its customers needs a
+  [Partner license](COMMERCIAL-LICENSE.md#the-partner-license-generating-suites-for-your-customers).
+  Its customers own the suites; generating them outside the license is the provider's liability.
 
 ## Contact
 

@@ -33,8 +33,12 @@ Generating a suite is use of Suite Builder, and needs a license that covers that
 A student or teacher who generates a suite of a site they do not own may use it only for that
 course; the site's owner holds it like any other suite.
 
-Generating a suite without a license that covers it breaks Suite Builder's license. It does not
-take the suite away from the site's owner.
+A service provider that generates suites for its customers needs a **Partner license**
+(`COMMERCIAL-LICENSE.md`), and generates them only within its agreement's term and scope.
+
+Generating a suite without a license that covers it breaks Suite Builder's license, and the one
+who generated it answers for that (for a service provider: the fees for every such suite, and any
+other remedy the law gives). It does not take the suite away from the site's owner.
 
 ## Suite Builder itself
 
