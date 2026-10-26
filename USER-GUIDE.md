@@ -30,7 +30,7 @@ Nothing else is installed by hand. From the `suite-builder` folder:
 suite build www.example.com
 ```
 
-(`suite.cmd` on Windows, `./suite` on macOS and Linux.) The first run sets the tool up, which takes a
+(In PowerShell `.\suite`, on macOS and Linux `./suite`; in Command Prompt `suite` as it is.) The first run sets the tool up, which takes a
 minute or two: it installs what it needs and the browser the crawler uses. It does the same after an
 update.
 
